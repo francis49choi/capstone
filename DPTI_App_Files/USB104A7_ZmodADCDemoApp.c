@@ -88,6 +88,7 @@ float triggerLevel = 0;
 bool coupling = 0;
 uint32_t length = 0x3FFF;
 char input[256];
+floast testBuf[0x3FFF];
 
 
 DWORD threadID;
@@ -522,6 +523,18 @@ int parseArgs(char* input){
 		}
 		else if(strcmp(strlwr(arg), "help") == 0 || arg[0]=='?'){
 			printUsage();
+		}
+		else if(strcmp(strlwr(arg), "test") == 0){
+			arg = strtok(NULL," \n");
+			if(arg!=NULL){
+				strcpy(filename, arg);
+				printf("%s",filename);
+				exit(0);
+			}
+			else{
+				printf("Error: No filename specified\n");
+				return -1;
+			}
 		}
 		else {
 			printf("Error: Invalid argument %s\n", arg);

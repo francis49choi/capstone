@@ -131,3 +131,21 @@ mb-size USB104A7_ZmodADC_Demo.elf  |tee "USB104A7_ZmodADC_Demo.elf.size"
   93792	   1908	 527660	 623360	  98300	USB104A7_ZmodADC_Demo.elf
 'Finished building: USB104A7_ZmodADC_Demo.elf.size'
 ' '
+15:12:24 **** Auto Build of configuration Debug for project USB104A7_ZmodADC_Demo ****
+make all 
+'Building file: ../src/main.cc'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../USB104A7_ZmodADC_Demo_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+'Finished building: ../src/main.cc'
+' '
+'Building target: USB104A7_ZmodADC_Demo.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../USB104A7_ZmodADC_Demo_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "USB104A7_ZmodADC_Demo.elf"  ./src/ZmodADC1410/zmodadc1410.o  ./src/Zmod/linux/reg/reg.o  ./src/Zmod/linux/flash/flash.o  ./src/Zmod/linux/dma/dma.o ./src/Zmod/linux/dma/libaxidma.o  ./src/Zmod/linux/utils.o  ./src/Zmod/baremetal/reg/reg.o  ./src/Zmod/baremetal/intc/intc.o  ./src/Zmod/baremetal/flash/flash.o  ./src/Zmod/baremetal/dma/dma.o  ./src/Zmod/zmod.o  ./src/DPTI/dpti.o  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: USB104A7_ZmodADC_Demo.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size USB104A7_ZmodADC_Demo.elf  |tee "USB104A7_ZmodADC_Demo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93792	   1908	 527660	 623360	  98300	USB104A7_ZmodADC_Demo.elf
+'Finished building: USB104A7_ZmodADC_Demo.elf.size'
+' '

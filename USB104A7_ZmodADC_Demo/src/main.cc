@@ -1,5 +1,6 @@
 /*
  * Empty C++ Application
+ // Spencer and Francis 
  */
 #include <stdio.h>
 #include "platform.h"

@@ -57,15 +57,15 @@
 /************************** Function Definitions ***************************/
 XStatus DPTI_SimpleTransfer (u32 BaseAddress, u8 Direction, u32 TransferLength)
 {
-	//u32 txLengthEmptyFlag, rxLengthEmptyFlag, StsReg, timeout=0;
+	u32 txLengthEmptyFlag, rxLengthEmptyFlag, StsReg, timeout=0;
 
 	if (TransferLength > 8388607)
 		return XST_FAILURE; // length is not a valid number
 	else
 	{
-		//StsReg = Xil_In32 (BaseAddress + DPTI_STATUS_REG_OFFSET);
-		//txLengthEmptyFlag = (StsReg & DPTI_SR_TX_LEN_EMPTY_MASK);
-		//rxLengthEmptyFlag = (StsReg & DPTI_SR_RX_LEN_EMPTY_MASK);
+		StsReg = Xil_In32 (BaseAddress + DPTI_STATUS_REG_OFFSET);
+		txLengthEmptyFlag = (StsReg & DPTI_SR_TX_LEN_EMPTY_MASK);
+		rxLengthEmptyFlag = (StsReg & DPTI_SR_RX_LEN_EMPTY_MASK);
 
 //		while (rxLengthEmptyFlag == 0 || txLengthEmptyFlag == 0)
 //			{

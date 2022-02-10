@@ -1,59 +1,59 @@
-!SESSION 2022-02-08 14:59:09.018 -----------------------------------------------
+!SESSION 2022-02-10 15:50:01.628 -----------------------------------------------
 eclipse.buildId=2019.1
 java.version=1.8.0_112
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Capstone_Spencer_Francis/FPGA/sdk_workspace
 
-!ENTRY org.eclipse.ui 2 0 2022-02-08 14:59:10.428
+!ENTRY org.eclipse.ui 2 0 2022-02-10 15:50:03.078
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2022-02-08 14:59:10.428
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-02-10 15:50:03.078
 !MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
 
-!ENTRY org.eclipse.ui 2 0 2022-02-08 14:59:10.863
+!ENTRY org.eclipse.ui 2 0 2022-02-10 15:50:03.521
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2022-02-08 14:59:10.863
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-02-10 15:50:03.521
 !MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 14:59:16.477
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:09.058
 !MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-14
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 14:59:16.477
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:09.059
 !MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 14:59:16.656
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:09.248
 !MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 14:59:16.656
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:09.248
 !MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-14
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 14:59:16.657
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:09.249
 !MESSAGE XSCT Command: [setws C:/Capstone_Spencer_Francis/FPGA/sdk_workspace], Thread: Thread-14
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 14:59:16.658
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:09.250
 !MESSAGE XSCT command with result: [setws C:/Capstone_Spencer_Francis/FPGA/sdk_workspace], Result: [null, ]. Thread: Thread-14
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 14:59:16.719
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-4
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:09.308
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-5
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 14:59:18.965
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-4
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:11.608
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-5
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 14:59:18.972
-!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-4
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:11.616
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-5
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 14:59:18.974
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:11.619
 !MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "7a100t",
 "family": "artix7",
 "timestamp": "Wed Apr 29 15:16:09 2020",
 "vivado_version": "2019.1.3",
 "part": "xc7a100tcsg324-1",
-}]. Thread: Worker-4
+}]. Thread: Worker-5
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 14:59:18.976
-!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-4
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:11.620
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-5
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 14:59:18.989
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:11.633
 !MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"AXI_DPTI_0": {"hier_name": "AXI_DPTI_0",
 "type": "AXI_DPTI",
 "version": "1.1",
@@ -184,12 +184,12 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Capstone_Spen
 "version": "2.0",
 "ip_type": "PERIPHERAL",
 },
-}]. Thread: Worker-4
+}]. Thread: Worker-5
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 14:59:19.076
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:11.716
 !MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 14:59:19.097
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:11.721
 !MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
 "base": "0x40600000",
 "high": "0x4060FFFF",
@@ -291,16 +291,16 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Capstone_Spen
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 14:59:19.131
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:11.754
 !MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 14:59:19.133
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:11.772
 !MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, {}]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 14:59:19.153
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:11.790
 !MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 14:59:19.238
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:11.875
 !MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"AXI_DPTI_0": {},
 "ZmodADC_0_AXI_ZmodADC1410_1": {},
 "ZmodADC_0_axi_dma_ADC": {"MM2S_DMACR": {"description": "MM2S DMA Control Register",
@@ -3099,7 +3099,88 @@ For each bit:
 "mig_7series_0": {},
 }]. Thread: main
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:45.494
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:49.018
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf bit], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:49.020
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf bit], Result: [null, design_1_wrapper.bit]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:49.021
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:49.024
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, {"microblaze_0": "design_1_i/microblaze_0:design_1_i/microblaze_0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:53.505
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:53.506
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:53.525
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:53.527
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:53.547
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_BASE_VECTORS], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:50:53.549
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_BASE_VECTORS], Result: [null, 0x0000000000000000]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:51:07.964
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:51:10.315
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:51:10.317
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:51:11.895
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent USB104 A7 - 100T 210398AE92EEA
+  3  Analog Discovery 2 210321A29AD8 (closed)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:51:11.897
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:51:11.902
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent USB104 A7 - 100T 210398AE92EEA
+  3  Analog Discovery 2 210321A29AD8 (closed)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:51:11.902
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:51:11.920
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:51:11.920
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 2 210321A29AD8 (closed)" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:51:14.939
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 2 210321A29AD8 (closed)" && level==1}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:51:14.940
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:51:17.070
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:51:17.071
+!MESSAGE XSCT Command: [fpga -file C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/download.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:51:18.379
+!MESSAGE XSCT command with result: [fpga -file C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/download.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:51:19.183
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:51:19.185
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:11.084
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3126,7 +3207,7 @@ java.lang.NullPointerException
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:45.561
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:11.141
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3137,7 +3218,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:45.565
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:11.144
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3148,7 +3229,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:45.760
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:11.222
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3159,7 +3240,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:45.765
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:11.226
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3170,7 +3251,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:45.841
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:11.285
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3181,7 +3262,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:45.846
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:11.289
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3192,7 +3273,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:45.939
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:11.358
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3203,7 +3284,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:45.943
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:11.361
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3214,7 +3295,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:46.021
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:11.419
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3225,7 +3306,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:46.025
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:11.422
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3236,7 +3317,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:46.126
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:11.492
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3247,7 +3328,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:46.130
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:11.495
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3258,7 +3339,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:46.226
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:11.562
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3269,7 +3350,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:46.229
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:11.565
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3280,10 +3361,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 1 0 2022-02-08 14:59:46.504
-!MESSAGE Indexed 'USB104A7_ZmodADC_Demo_bsp' (68 sources, 104 headers) in 1.46 sec: 3,127 declarations; 15,503 references; 49 unresolved inclusions; 5 syntax errors; 41 unresolved names (0.22%)
-
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:46.548
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:11.783
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3294,7 +3372,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:46.553
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:11.786
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3305,7 +3383,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:46.644
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:11.857
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3316,7 +3394,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:46.648
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:11.860
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3327,7 +3405,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:46.700
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:11.901
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3338,10 +3416,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 1 0 2022-02-08 14:59:47.626
-!MESSAGE Indexed 'USB104A7_ZmodADC_Demo' (14 sources, 171 headers) in 1.12 sec: 3,674 declarations; 7,677 references; 0 unresolved inclusions; 14 syntax errors; 205 unresolved names (1.8%)
-
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:48.093
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:12.506
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3352,7 +3427,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:48.097
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:12.510
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3363,7 +3438,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:48.139
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:12.555
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3374,7 +3449,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:48.371
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:12.798
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3385,7 +3460,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:48.374
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:12.801
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3396,7 +3471,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:48.417
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:12.849
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3407,7 +3482,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:48.853
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:13.299
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3418,7 +3493,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:48.857
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:13.303
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3429,7 +3504,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:48.898
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:13.343
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3440,7 +3515,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:49.081
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:13.534
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3451,7 +3526,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:49.085
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:13.537
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3462,7 +3537,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:49.127
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:13.581
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3473,7 +3548,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:50.003
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:14.471
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3484,7 +3559,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:50.006
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:14.473
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3495,7 +3570,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:50.048
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:14.517
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3506,7 +3581,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:50.527
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:15.005
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3517,7 +3592,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:50.530
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:15.007
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3528,7 +3603,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:50.595
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:15.074
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3539,7 +3614,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:51.664
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:16.161
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3550,7 +3625,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:51.664
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:16.162
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3561,7 +3636,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:51.665
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:16.163
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3572,7 +3647,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:52.512
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:16.942
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3583,7 +3658,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:52.515
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:16.945
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3594,7 +3669,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:52.557
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:16.984
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3605,7 +3680,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:53.047
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:17.458
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3616,7 +3691,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2022-02-08 14:59:53.076
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:17.471
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3641,201 +3716,948 @@ java.lang.NullPointerException
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:04.930
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf bit], Thread: main
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:18.410
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.core.CommandLauncher.printCommandLine(CommandLauncher.java:287)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:250)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:04.932
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf bit], Result: [null, design_1_wrapper.bit]. Thread: main
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:18.467
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:04.933
-!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf ], Thread: main
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:18.470
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:04.935
-!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf ], Result: [null, {"microblaze_0": "design_1_i/microblaze_0:design_1_i/microblaze_0",
-}]. Thread: main
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:18.569
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:19.107
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:18.573
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:18.639
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:18.642
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:18.720
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:18.725
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:18.789
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:18.793
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:18.867
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:18.870
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:18.946
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:18.951
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-02-10 15:53:19.137
+!MESSAGE Indexed 'USB104A7_ZmodADC_Demo_bsp' (68 sources, 104 headers) in 0.889 sec: 3,127 declarations; 15,503 references; 49 unresolved inclusions; 5 syntax errors; 41 unresolved names (0.22%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:19.172
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:19.175
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:19.271
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:19.275
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:19.322
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-02-10 15:53:20.009
+!MESSAGE Indexed 'USB104A7_ZmodADC_Demo' (14 sources, 171 headers) in 0.87 sec: 3,674 declarations; 7,677 references; 0 unresolved inclusions; 14 syntax errors; 205 unresolved names (1.8%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:20.021
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:20.024
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:20.068
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:20.319
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:20.322
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:20.363
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:20.798
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:20.801
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:20.841
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:21.026
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:21.030
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:21.068
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:21.941
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:21.944
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:21.983
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:22.462
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:22.474
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:22.539
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:23.612
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:23.612
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:23.613
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:24.414
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:24.417
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:24.461
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:24.935
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-10 15:53:24.978
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.closeConsoleOutputStream(ConsoleOutputSniffer.java:160)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.close(ConsoleOutputSniffer.java:68)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.close(ProcessClosure.java:98)
+	at org.eclipse.cdt.internal.core.ProcessClosure.isAlive(ProcessClosure.java:193)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:259)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:53:46.527
 !MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_ENABLED], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:19.108
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:53:46.528
 !MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_ENABLED], Result: [null, 1]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:19.109
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:53:46.528
 !MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_PROFILE_SIZE], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:19.110
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:53:46.530
 !MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_PROFILE_SIZE], Result: [null, 0]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:19.110
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:53:46.530
 !MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_FREQ], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:19.112
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:53:46.531
 !MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:54.540
-!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.158
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:54.543
-!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {}]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.163
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {}]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:54.544
-!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.163
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:54.562
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.183
 !MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"microblaze_0": {"bscan": "2",
 "index": "0",
 },
-}]. Thread: Worker-0
+}]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:54.566
-!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.187
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:54.568
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.190
 !MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, {"microblaze_0": {},
-}]. Thread: Worker-0
+}]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:54.569
-!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.190
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:54.570
-!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, microblaze_0]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.192
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, microblaze_0]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:54.571
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.192
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:54.572
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.194
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:54.573
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.195
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:54.574
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.214
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:54.593
-!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.215
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:57.032
-!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.216
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:57.033
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.217
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:57.649
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.224
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent USB104 A7 - 100T 210398AE92EEA
-  5  Analog Discovery 2 210321A29AD8 (closed)]. Thread: Worker-0
+  3  Analog Discovery 2 210321A29AD8 (closed)]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:57.651
-!MESSAGE XSCT Command: [version -server], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.225
+!MESSAGE XSCT Command: [version -server], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:57.652
-!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.231
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:57.652
-!MESSAGE XSCT Command: [version], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.231
+!MESSAGE XSCT Command: [version], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:57.653
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.232
 !MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
 SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
-Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-0
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:57.655
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.233
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:57.675
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.261
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent USB104 A7 - 100T 210398AE92EEA
-  5  Analog Discovery 2 210321A29AD8 (closed)]. Thread: Worker-0
+  3  Analog Discovery 2 210321A29AD8 (closed)]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:57.676
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.262
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:57.693
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.292
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:00:57.694
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 2 210321A29AD8 (closed)" && level==1}], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:32.292
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 2 210321A29AD8 (closed)" && level==1}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:00.712
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 2 210321A29AD8 (closed)" && level==1}], Result: [null, ]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:35.311
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 2 210321A29AD8 (closed)" && level==1}], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:00.713
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:35.311
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:00.720
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:35.317
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent USB104 A7 - 100T 210398AE92EEA
-  5  Analog Discovery 2 210321A29AD8 (closed)]. Thread: Worker-0
+  3  Analog Discovery 2 210321A29AD8 (closed)]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:00.720
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:35.317
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:00.738
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:35.335
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:00.739
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 2 210321A29AD8 (closed)" && level==1}], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:35.336
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 2 210321A29AD8 (closed)" && level==1}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:03.756
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 2 210321A29AD8 (closed)" && level==1}], Result: [null, ]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:38.354
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 2 210321A29AD8 (closed)" && level==1}], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:03.757
-!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level == 0}], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:38.354
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level == 0}], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:03.774
-!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level == 0}], Result: [null, ]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:38.376
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level == 0}], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:03.775
-!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:38.376
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:03.776
-!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:38.377
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:03.776
-!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:38.378
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:03.779
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:38.380
 !MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"Clk": "100000000",
 "Dbg_Clk": "",
-}]. Thread: Worker-0
+}]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:03.808
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:38.403
 !MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:03.814
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:38.409
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent USB104 A7 - 100T 210398AE92EEA
-  5  Analog Discovery 2 210321A29AD8 (closed)]. Thread: ModalContext
+  3  Analog Discovery 2 210321A29AD8 (closed)]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:03.814
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:38.409
 !MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:03.832
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:38.428
 !MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:03.833
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:38.428
 !MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 2 210321A29AD8 (closed)" && level==1}], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:06.850
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:41.446
 !MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 2 210321A29AD8 (closed)" && level==1}], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:06.852
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:41.446
 !MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==0} -index 0], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:06.880
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:41.468
 !MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:06.880
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:41.469
 !MESSAGE XSCT Command: [fpga -file C:/Capstone_Spencer_Francis/FPGA/USB104A7-ZmodDAC_Precompiled.bit], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:08.306
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:42.897
 !MESSAGE XSCT command with result: [fpga -file C:/Capstone_Spencer_Francis/FPGA/USB104A7-ZmodDAC_Precompiled.bit], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:08.350
-!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:42.936
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:08.358
-!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-0
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:42.938
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:08.388
-!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-55
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:42.974
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-66
 
-!ENTRY com.xilinx.sdk.utils 0 0 2022-02-08 15:01:08.390
-!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-55
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 15:54:42.976
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-66
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:40.443
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:42.604
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:42.605
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:43.219
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent USB104 A7 - 100T 210398AE92EEA
+  3  Analog Discovery 2 210321A29AD8 (closed)]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:43.220
+!MESSAGE XSCT Command: [version -server], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:43.221
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:43.221
+!MESSAGE XSCT Command: [version], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:43.222
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
+SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:43.222
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:43.241
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent USB104 A7 - 100T 210398AE92EEA
+  3  Analog Discovery 2 210321A29AD8 (closed)]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:43.241
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:43.260
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:43.260
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 2 210321A29AD8 (closed)" && level==1}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:46.278
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 2 210321A29AD8 (closed)" && level==1}], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:46.279
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:46.284
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent USB104 A7 - 100T 210398AE92EEA
+  3  Analog Discovery 2 210321A29AD8 (closed)]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:46.285
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:46.302
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:46.302
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 2 210321A29AD8 (closed)" && level==1}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:49.319
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 2 210321A29AD8 (closed)" && level==1}], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:49.320
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level == 0}], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:49.338
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level == 0}], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:49.339
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:49.339
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:49.359
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:49.364
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent USB104 A7 - 100T 210398AE92EEA
+  3  Analog Discovery 2 210321A29AD8 (closed)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:49.365
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:49.383
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:49.384
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 2 210321A29AD8 (closed)" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:52.402
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Analog Discovery 2 210321A29AD8 (closed)" && level==1}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:52.403
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:52.861
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:52.862
+!MESSAGE XSCT Command: [fpga -file C:/Capstone_Spencer_Francis/FPGA/USB104A7-ZmodDAC_Precompiled.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:54.281
+!MESSAGE XSCT command with result: [fpga -file C:/Capstone_Spencer_Francis/FPGA/USB104A7-ZmodDAC_Precompiled.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:54.302
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:54.304
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:54.325
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-86
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:30:54.327
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-86
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:13.644
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:15.796
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:15.796
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.170
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent USB104 A7 - 100T 210398AE92EEA]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.171
+!MESSAGE XSCT Command: [version -server], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.172
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.172
+!MESSAGE XSCT Command: [version], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.173
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
+SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.173
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.192
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent USB104 A7 - 100T 210398AE92EEA]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.192
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.210
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.211
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.216
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent USB104 A7 - 100T 210398AE92EEA]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.216
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.234
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.234
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level == 0}], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.252
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level == 0}], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.253
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.254
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.286
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.291
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent USB104 A7 - 100T 210398AE92EEA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.291
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.316
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:18.316
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:20.079
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:20.080
+!MESSAGE XSCT Command: [fpga -file C:/Capstone_Spencer_Francis/FPGA/USB104A7-ZmodDAC_Precompiled.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:21.498
+!MESSAGE XSCT command with result: [fpga -file C:/Capstone_Spencer_Francis/FPGA/USB104A7-ZmodDAC_Precompiled.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:21.511
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:21.513
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:21.528
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-103
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-10 16:33:21.530
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-103

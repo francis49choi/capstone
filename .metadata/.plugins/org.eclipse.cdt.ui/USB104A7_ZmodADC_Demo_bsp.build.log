@@ -1,4 +1,4 @@
-14:59:45 **** Build of project USB104A7_ZmodADC_Demo_bsp ****
+15:53:18 **** Auto Build of project USB104A7_ZmodADC_Demo_bsp ****
 make -k all 
 "Running Make include in microblaze_0/libsrc/axidma_v9_9/src"
 make -C microblaze_0/libsrc/axidma_v9_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
@@ -45,5 +45,5 @@ make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-
 "Compiling uartlite"
 'Finished building libraries'
 
-14:59:53 Build Finished (took 7s.917ms)
+15:53:24 Build Finished (took 6s.624ms)
 

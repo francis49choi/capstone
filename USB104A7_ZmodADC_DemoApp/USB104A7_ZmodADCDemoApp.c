@@ -88,6 +88,8 @@ float triggerLevel = 0;
 bool coupling = 0;
 uint32_t length = 0x3FFF;
 char input[256];
+float adcOutBuf[0x3FFF];
+FILE* sampledData;
 
 
 DWORD threadID;
@@ -528,6 +530,9 @@ int parseArgs(char* input){
 			if(arg!=NULL){
 				strcpy(filename, arg);
 				printf("%s",filename);
+				FILE* file = fopen(filename, "r");
+				getWaveData(file, (BYTE*)adcOutBuf);
+				fclose(file);
 				exit(0);
 			}
 			else{
@@ -592,6 +597,36 @@ int getNumLines(FILE* csv){
 * @return number of samples added
 *
 */
+
+		// if (fArmed){
+		// 	DmgrGetTransResult(hif, &nDataOut, &nDataIn, 0);
+		// 	status = DmgrGetLastError();
+		// 	if(status!=ercTransferPending && status!=ercNoErc){
+		// 		fArmed=false;
+		// 		printf("Error %d receiving data.\r\n", status);
+		// 		DmgrSetTransTimeout(hif, 3000);
+		// 		cmdState=GETINPUT;//Print prompt again.
+		// 	}
+		// 	else if(nDataIn>=length*sizeof(float)){
+		// 		printf("Received %d bytes, %d samples\n", nDataIn, nDataIn/4);
+		// 		FILE* file = fopen(filename, "w");
+		// 		for(int i =0; i<length; i++){
+		// 			fprintf(file, "%f\n", pBuf[i]);
+		// 		}
+		// 		fclose(file);
+		// 		DmgrSetTransTimeout(hif, 3000);
+		// 		fArmed=false;
+		// 		cmdState=GETINPUT;//Print prompt again.
+		// 	}
+
+/*
+(In Progress/Testing): Attempting to read the 16 383 digital samples of the analog input signal that are stored in "waveform.csv" into
+a new .csv file (by first getting the data from getWaveData())
+*/
+// if (waveform.csv is finished being filled with sample data){
+// 	FILE* file = fopen(filename, "r"); // Read from waveform.csv
+// }
+
 int getWaveData(FILE* csv, BYTE* buf){
 	char line[256];
 	int offset=0;
@@ -602,12 +637,29 @@ int getWaveData(FILE* csv, BYTE* buf){
 			continue;
 		}
 		sample = atof(line);
-		if (sample>1)sample=1;
-		else if (sample<-1)sample=-1;
-		*(int16_t*)&buf[offset*2] = (int16_t)(0x1FFF * sample);//Convert from percentage to 14 bit signed int value
+
+		if (sample > 1)
+			sample = 1;
+		else if (sample < -1)
+			sample = -1;
+
+		*(int16_t*)&buf[offset*2] = (int16_t)(0x1FFF * sample); // Convert from percentage to 14 bit signed int value
+
+		printf("Quantized Value: %d\n", *(int16_t*)&buf[offset*2]);
 		//Using offset*2 here to pack the values as 16 bit ints.
 		offset++;
+
 	}
+
+	FILE* file = fopen("test.csv", "w");
+
+	for(int i = 0 ; i < length ; i++){
+		fprintf(file, "%d\n", *(int16_t*)&buf[i*2]);
+		// printf("Quantized Value: %u\n", *(int16_t*)&buf[i]);	
+	}
+	fclose(file);
+
+	closeDPTI();
 	return offset;
 }
 

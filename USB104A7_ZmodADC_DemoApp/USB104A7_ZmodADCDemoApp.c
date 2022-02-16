@@ -203,17 +203,16 @@ int main(int argc, char* argv[]){
 		}
 		//If RUN acquire operation 
 		if (fRun){
-			while (1){
-				*(uint32_t*)opCodeToSend = IMMEDIATE_OP | (channel<<16);
-				// Only Opcode is sent
+			fRun = false; 
+			*(uint32_t*)opCodeToSend = IMMEDIATE_OP | (channel<<16);
+			while(1){
 				if(!DptiIO(hif, opCodeToSend, 4, NULL, 0, fFalse))
 				{
-					status = DmgrGetLastError();
-					printf("Error %d sending opcode.\n", status);
-					closeDPTI();
-					continue;
+				status = DmgrGetLastError();
+				printf("Error %d sending opcode.\n", status);
+				closeDPTI();
+				continue;
 				}
-
 				if(!DptiIO(hif, NULL, 0, (BYTE*)pBuf, length*sizeof(float), fTrue))
 				{
 				status = DmgrGetLastError();
@@ -221,13 +220,22 @@ int main(int argc, char* argv[]){
 				closeDPTI();
 				continue;
 				}
-
-				for(int i =0; i<length; i++){
-					printf("%f\n", pBuf[i]);
+				DmgrGetTransResult(hif, &nDataOut, &nDataIn, 0);
+				status = DmgrGetLastError();
+				
+				if(status!=ercTransferPending && status!=ercNoErc){
+					printf("Error %d receiving data.\r\n", status);
+					DmgrSetTransTimeout(hif, 3000);
+					cmdState=GETINPUT;//Print prompt again.
 				}
-
-				closeDPTI();
-				// pBuf[length]= 0; 
+				else if(nDataIn>=length*sizeof(float)){
+					for(int i =0; i<length; i++){
+					printf("%f\n", pBuf[i]);
+					}
+					DmgrSetTransTimeout(hif, 3000);
+				}
+				cmdState=WAIT;
+				sleep(2);
 			}
 		}
 		//Immediate acquire operation	

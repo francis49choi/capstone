@@ -213,20 +213,20 @@ int main(int argc, char* argv[]){
 				continue;
 			}
 
-			if(!DptiIO(hif, NULL, 0, (BYTE*)pBuf, length*sizeof(float), fTrue))
-			{
+			while (1){
+				if(!DptiIO(hif, NULL, 0, (BYTE*)pBuf, length*sizeof(float), fTrue))
+				{
 				status = DmgrGetLastError();
 				printf("Error %d receiving waveform.\n", status);
 				closeDPTI();
 				continue;
-			}
+				}
 
-			for(int i =0; i<length; i++){
+				for(int i =0; i<length; i++){
 					printf("%f\n", pBuf[i]);
+				}
+				pBuf={0};
 			}
-				
-			fRun = false;
-			cmdState=GETINPUT;
 		}
 		//Immediate acquire operation	
 		if(fImmediate){

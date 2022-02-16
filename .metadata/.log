@@ -7782,3 +7782,149 @@ For each bit:
 
 !ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 19:18:32.358
 !MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:40.895
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:40.900
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:40.901
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:40.915
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"microblaze_0": {"bscan": "2",
+"index": "0",
+},
+}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:40.919
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:40.921
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, {"microblaze_0": {},
+}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:40.922
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:40.923
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, microblaze_0]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:40.923
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:40.925
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:40.925
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:40.946
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:40.947
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:43.472
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:43.474
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.837
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent USB104 A7 - 100T 210398AE92EEA]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.838
+!MESSAGE XSCT Command: [version -server], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.840
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.840
+!MESSAGE XSCT Command: [version], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.841
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
+SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.843
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.868
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent USB104 A7 - 100T 210398AE92EEA]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.869
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.887
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.887
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.893
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent USB104 A7 - 100T 210398AE92EEA]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.893
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.913
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.914
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.934
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level == 0}], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.935
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.936
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.944
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.948
+!MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json C:/Capstone_Spencer_Francis/FPGA/sdk_workspace/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"Clk": "100000000",
+"Dbg_Clk": "",
+}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.971
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.991
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent USB104 A7 - 100T 210398AE92EEA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:45.992
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:46.012
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:46.014
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:47.808
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent USB104 A7 - 100T 210398AE92EEA" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:47.808
+!MESSAGE XSCT Command: [fpga -file C:/Capstone_Spencer_Francis/FPGA/USB104A7-ZmodDAC_Precompiled.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:49.235
+!MESSAGE XSCT command with result: [fpga -file C:/Capstone_Spencer_Francis/FPGA/USB104A7-ZmodDAC_Precompiled.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:49.256
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:49.258
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:49.297
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-50
+
+!ENTRY com.xilinx.sdk.utils 0 0 2022-02-15 20:23:49.299
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-50

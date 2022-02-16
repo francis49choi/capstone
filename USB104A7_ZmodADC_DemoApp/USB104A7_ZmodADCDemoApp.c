@@ -212,18 +212,22 @@ int main(int argc, char* argv[]){
 				closeDPTI();
 				continue;
 			}
+			while (1){
+				if(!DptiIO(hif, NULL, 0, (BYTE*)pBuf, length*sizeof(float), fTrue)){
+					status = DmgrGetLastError();
+					printf("Error %d receiving waveform.\n", status);
+					closeDPTI();
+					continue;
+				}
 
-			if(!DptiIO(hif, NULL, 0, (BYTE*)pBuf, length*sizeof(float), fTrue))
-			{
-				status = DmgrGetLastError();
-				printf("Error %d receiving waveform.\n", status);
-				closeDPTI();
-				continue;
+				for(int i =0; i<length; i++){
+					printf(file, "%f\n", pBuf[i]);
+				}
+				pBuf={0};
 			}
-
-			for(int i =0; i<length; i++){
-					fprint("%f\n", pBuf[i]);
+			
 			}
+			
 				
 			fRun = false;
 			cmdState=GETINPUT;

@@ -73,6 +73,9 @@ bool fSetTriggerLevel=false;
 bool fSetCoupling=false;
 bool fSetLength=false;
 
+//new run flag
+bool fRun = false;
+
 bool fExitApplication=false;
 
 //DPTI Initialized Flag
@@ -198,7 +201,33 @@ int main(int argc, char* argv[]){
 			fArmed=true;
 			cmdState=WAIT;
 		}
-		
+		//If RUN acquire operation 
+		if (fRun){
+			*(uint32_t*)opCodeToSend = IMMEDIATE_OP | (channel<<16);
+			// Only Opcode is sent
+			if(!DptiIO(hif, opCodeToSend, 4, NULL, 0, fFalse))
+			{
+				status = DmgrGetLastError();
+				printf("Error %d sending opcode.\n", status);
+				closeDPTI();
+				continue;
+			}
+
+			if(!DptiIO(hif, NULL, 0, (BYTE*)pBuf, length*sizeof(float), fTrue))
+			{
+				status = DmgrGetLastError();
+				printf("Error %d receiving waveform.\n", status);
+				closeDPTI();
+				continue;
+			}
+
+			for(int i =0; i<length; i++){
+					fprint("%f\n", pBuf[i]);
+			}
+				
+			fRun = false;
+			cmdState=GETINPUT;
+		}
 		//Immediate acquire operation	
 		if(fImmediate){
 			
@@ -539,6 +568,9 @@ int parseArgs(char* input){
 				printf("Error: No filename specified\n");
 				return -1;
 			}
+		}
+		else if (strcmp(strlwr(arg), "run") == 0){
+			fRun = true;
 		}
 		else {
 			printf("Error: Invalid argument %s\n", arg);

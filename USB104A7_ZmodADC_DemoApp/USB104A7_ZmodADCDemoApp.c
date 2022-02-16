@@ -222,7 +222,7 @@ int main(int argc, char* argv[]){
 			}
 
 			for(int i =0; i<length; i++){
-					fprint("%f\n", pBuf[i]);
+					printf("%f\n", pBuf[i]);
 			}
 				
 			fRun = false;
@@ -413,7 +413,8 @@ int main(int argc, char* argv[]){
 /**
 * Closes the connection to the DPTI device
 */
-void closeDPTI(){
+void closeDPTI()
+{
 	cmdState=GETINPUT;//Print prompt again.
 	DmgrCancelTrans(hif);
 	DptiDisable(hif);

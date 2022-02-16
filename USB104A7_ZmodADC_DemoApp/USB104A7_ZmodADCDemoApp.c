@@ -203,17 +203,17 @@ int main(int argc, char* argv[]){
 		}
 		//If RUN acquire operation 
 		if (fRun){
-			*(uint32_t*)opCodeToSend = IMMEDIATE_OP | (channel<<16);
-			// Only Opcode is sent
-			if(!DptiIO(hif, opCodeToSend, 4, NULL, 0, fFalse))
-			{
-				status = DmgrGetLastError();
-				printf("Error %d sending opcode.\n", status);
-				closeDPTI();
-				continue;
-			}
-
 			while (1){
+				*(uint32_t*)opCodeToSend = IMMEDIATE_OP | (channel<<16);
+				// Only Opcode is sent
+				if(!DptiIO(hif, opCodeToSend, 4, NULL, 0, fFalse))
+				{
+					status = DmgrGetLastError();
+					printf("Error %d sending opcode.\n", status);
+					closeDPTI();
+					continue;
+				}
+
 				if(!DptiIO(hif, NULL, 0, (BYTE*)pBuf, length*sizeof(float), fTrue))
 				{
 				status = DmgrGetLastError();
@@ -225,7 +225,9 @@ int main(int argc, char* argv[]){
 				for(int i =0; i<length; i++){
 					printf("%f\n", pBuf[i]);
 				}
-				pBuf={0};
+
+				closeDPTI();
+				// pBuf[length]= 0; 
 			}
 		}
 		//Immediate acquire operation	
